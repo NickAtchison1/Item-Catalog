@@ -1,6 +1,6 @@
-# Project: Log Analysis
+# Project: Item Catalog
 
-Backend SQL project for Udacity full stack nanodegree.
+CRUD application with 3rd party OAUTH project for Udacity full stack nanodegree.
 
 ## Software Requirements
 
