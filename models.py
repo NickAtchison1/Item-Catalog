@@ -38,9 +38,9 @@ class Item(Base):
     description = Column(String(250))
     price = Column(String(8))
     category_id = Column(Integer, ForeignKey('category.id'))
-    category = relationship(Category, backref="item")
+    category = relationship(Category, backref="item", single_parent=True, cascade="all, delete-orphan")
     user_id = Column(Integer, ForeignKey('user.id'))
-    user = relationship(User, backref="item")
+    user = relationship(User)
 
     @property
     def serialize(self):
@@ -53,6 +53,6 @@ class Item(Base):
         }
 
 
-engine = create_engine('sqlite:///catalog.db')
+engine = create_engine('sqlite:///catalognew.db')
 Base.metadata.create_all(engine)
  

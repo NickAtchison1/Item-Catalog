@@ -96,7 +96,7 @@ h3 {
 	background-color: #42C3C9;
 }
 .divider.green {
-	background-color: #9FB80A;
+	background-color: rgb(75, 137, 189);
 }
 .banner.main {
 	height: 150px;
@@ -107,7 +107,7 @@ h3 {
 }
 .banner.menu {
 	height: 150px;
-	background-color: #E1E17F;
+	background-color: #0093B9;
 }
 .banner.profile {
 	height: 150px;
@@ -145,7 +145,7 @@ u }
 }
 .creator figcaption {
 	font-size: 14px;
-	color: #7B7573;
+	color: #000000;
 	font-weight: 400;
 	margin-top: -20px;
 }
