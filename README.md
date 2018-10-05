@@ -4,7 +4,7 @@ CRUD application with 3rd party OAUTH project for Udacity full stack nanodegree.
 
 ## Software Requirements
 
-Python 3 is needed for this application 
+This is Python web application that uses the Flask framework and SQLAlchemy ORM. 
 
 ## Installing the Application
 

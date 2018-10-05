@@ -18,7 +18,7 @@ for ( var price of prices ) {
 }
 
 var avgDiv = document.createElement("div");
-avgDiv.style.cssText = 'position:absolute;top:300px;right:300px;width:640px;height:200px;color:#0093B9;font-size:20px;line-height:24px;';
+avgDiv.style.cssText = 'position:absolute;top:300px;right:100px;width:440px;height:200px;color:#0093B9;font-size:20px;line-height:24px;';
 var totalNumContent = document.createTextNode("Number of items in this category: " + numbers.length + "  ");
 var avgContent = document.createTextNode("The average price in this category is: $" + avg);
 avgDiv.appendChild(totalNumContent);
